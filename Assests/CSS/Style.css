@@ -1,0 +1,64 @@
+header{
+    
+    width: 300px;
+    height: 100%; 
+    background-color: #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    background-color: darkgray;
+}
+.footr{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    text-align: center;
+    color: whitesmoke;
+}
+.container{
+    background-color: bisque;
+    margin-bottom: 20px;
+}
+#coolDudeRow{
+    margin: 20px;
+}
+#coolDude{
+    width: 75%;
+    height: 75%;
+}
+#coolDudeParaOne{
+    font-size: 150%;
+}
+#coolDudeParaTwo{
+    font-size: 150%;
+    margin: 20px;
+}
+.imgRow{
+    margin-top: 20px;
+}
+.imgBox0{
+width: 57%;
+height: 15%;
+background-color: #4aaaa5;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+bottom: 100px;
+}
+.ImgHeader{
+    padding-top: 5px; 
+    font-size: 130%;
+}
+#rpsImg{
+    font-size: 100%;
+}
+.form{
+    margin-top: 20px;
+}
+#msgForm{
+    margin-bottom: 40px;
+}
