@@ -15,7 +15,6 @@ header{
     text-align: center;
 }
 body{
-    background-color: darkgray;
     /* for sticky footer */
     margin-bottom: 60px; /* Margin bottom by footer height */
 }
@@ -31,43 +30,7 @@ body{
     height: 60px; /* Set the fixed height of the footer here */
     line-height: 60px; /* Vertically center the text there */
 }
-.container{
+/* .container{
     background-color: bisque;
     margin-bottom: 20px;
-}
-#coolDudeRow{
-    margin: 20px;
-}
-#coolDude{
-    width: 75%;
-    height: 75%;
-}
-#coolDudeParaOne{
-    font-size: 150%;
-}
-#coolDudeParaTwo{
-    font-size: 150%;
-    margin: 20px;
-}
-.imgRow{
-    margin-top: 20px;
-}
-.imgBox0{
-width: 57%;
-height: 15%;
-background-color: #4aaaa5;
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-position: relative;
-bottom: 100px;
-}
-.ImgHeader{
-    padding-top: 5px; 
-    font-size: 130%;
-}
-#rpsImg{
-    font-size: 100%;
-}
-#msgForm{
-    margin-bottom: 40px;
-}
+} */
