@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <title>EricB's_Portfolio_About</title>
-    <!-- css cdns and files -->
+    <!-- css cdns, links and files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
     <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -35,25 +35,36 @@
         </nav>
     </div>
     <br/>
-    <!-- container for mobile content -->
-    <!-- container for desktop content -->   
-    <div class="container" id="about-desktop-container">
-        <div class="row z-depth-5 about-header">
+   
+    <!-- container for main content -->   
+    <div class="container">
+        <!-- header that will be displayed above 800px wide screens -->
+        <div class="row z-depth-5 about-header" id="desktop-header">
             <div class="col s6 push-s3 offset-3">
                 <div class="center-align box">
                     <div class="inner">
-                        <h1 class="">About</h1>
+                        <h1 class="inner-header">About</h1>
                     </div>
                     <div class="inner">
-                        <h1 class="">About</h1>
+                        <h1 class="inner-header">About</h1>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="parallax-container z-depth-5">
-            <div class="parallax"><img id="parallaxOne" src="./Assests/Images/katieEricsBday.jpg"></div>
+
+        <!-- header that will be displayed on mobile -->
+        <div class="row about-header z-depth-5" id="mobile-header">
+            <div class="col s12">
+                <h1 class="center-align">About</h1>
+            </div>
+        </div>
+
+        <!-- first parallax, calls for a random image from the profileImgArray in JS file -->
+        <div class="parallax-container z-depth-3">
+            <div class="parallax"><img id="parallaxOne" src=""></div>
         </div>
         <br/>
+        <!-- first about text field -->
         <div class="row z-depth-5 about-text">
             <div class="col s12">
                 <h5>Hello there, my name is Eric Bishop. Welcome to my website! Pardon the construction 
@@ -64,12 +75,13 @@
             </div>
         </div>
 
-        <div class="parallax-container z-depth-5">
-            <div class="parallax"><img id="parallaxTwo" src="./Assests/Images/14390838_1601336530171519_8479005858397986993_n.jpg"></div>
+        <!-- second parallax, calls for a random image from the activityImgArray in JS file -->
+        <div class="parallax-container z-depth-3">
+            <div class="parallax"><img id="parallaxTwo" src=""></div>
         </div>
         <br/>
 
-
+        <!-- second about text field -->
         <div class="row z-depth-5 about-text">
             <div class="col s12">                
                 <h5>This is that awkward part where I try to describe myself. Truth is, I'm pretty
@@ -85,6 +97,7 @@
         </div>
     </div>
     
+    <!-- footer on hold for now, will use materialize more than likely -->
     <!-- <footer class="footr text-center">
         Copyright &#169; 2018
     </footer> -->
