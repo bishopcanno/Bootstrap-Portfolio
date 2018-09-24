@@ -1,8 +1,11 @@
+/* ---------------------------------------------------------------------INDEX PAGE CSS--------------------------------------------------------------- */
+
+/* required to make the vertical alignment for materialize work */
 html, body, .my-wrapper {
     height: 100%;
     width: 100%;
-   
 }
+/* implements the background img sets its z index to -10 and a few other items to make the image render properly across viewports */
   body{
     background-image: url(../Images/redRockImg1.jpg);
     z-index: -10;
@@ -11,6 +14,8 @@ html, body, .my-wrapper {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+/* button customization css */
 .fixed-action-btn{
     z-index: 10;
 }
@@ -23,6 +28,8 @@ html, body, .my-wrapper {
 .btn-large:hover{
     background-color: rgb(84, 121, 143);
 }
+
+/* welcome text custom css */
 #welcome{
     font-family: 'Notable', sans-serif;
     color: crimson;
@@ -33,6 +40,8 @@ h3{
     0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px
   rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
+
+/* media queries to ensure mobile responsiveness, they change at the same time materialize changes its sizes in the grid */
 @media screen and (max-width: 700px) and (min-width: 300px){
     h3{
         font-size: 20px;

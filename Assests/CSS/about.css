@@ -1,4 +1,6 @@
+/* ---------------------------------------------------------------------ABOUT PAGE CSS--------------------------------------------------------------- */
 
+/* customization of the materialize defaults */
 nav {
     background-color: crimson;
 }
@@ -19,24 +21,30 @@ h5{
 nav ul a{
     color: #C1D3C8;
 }
-nav .brand-logo{
+nav #home-button{
     color: #C1D3C8;
 } 
-.footr{
+/* footer on hold for now, will use materialize more than likely  */
+/* .footr{
   
     background-color: grey;
-    color: whitesmoke;
+    color: whitesmoke; 
 
-    /* for sticky footer */
-    position: absolute;
+    for sticky footer
+    position: absolute
     bottom: 0;
     width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
+    height: 60px;  Set the fixed height of the footer here
+    line-height: 60px;  Vertically center the text there
+} */
+#mobile-header{
+	color: #C1D3C8;
 }
 .container{
     z-index: 10;
 }
+
+/* CSS required for desktop header effect */
 .box {
     /* position: relative;
     right: -500px; */
@@ -58,14 +66,14 @@ nav .brand-logo{
 	background-color: crimson;
 	color: rgb(84, 121, 143);
 	transform-origin: right;
-	transform: perspective(100px) rotateY(-15deg);
+	transform: perspective(700px) rotateY(-35deg);
 }
 
 .box .inner:last-child {
 	background-color: indianred;
 	color: #C1D3C8;
 	transform-origin: left;
-	transform: perspective(100px) rotateY(15deg);
+	transform: perspective(700px) rotateY(35deg);
 }
 
 .box .inner h1 {
@@ -77,6 +85,11 @@ nav .brand-logo{
 	animation-delay: 2.5s;
 	left: -100%;
 }
+/* added margin to the parallax container, adds to the effect of it looking like its behind the text rows */
+.parallax-container{
+	margin-right: 10px;
+	margin-left: 10px;
+}
 
 @keyframes marquee {
 	from {
@@ -85,5 +98,25 @@ nav .brand-logo{
 
 	to {
 		left: -100%;
+	}
+}
+
+/* media queries to adjust for mobile responsiveness */
+@media screen and (max-width: 850px) and (min-width: 300px){
+	h1{
+		font-size: 40px;
+	}
+	h5{
+        font-size: 15px;
+    }
+} 
+
+@media screen and (max-width: 1030px) and (min-width: 856px){
+	h1{
+		font-size: 40px;
+	}
+	.inner-header{
+		position: relative;
+		top: 20px;
 	}
 }
