@@ -1,0 +1,89 @@
+
+nav {
+    background-color: crimson;
+}
+body{
+    background-color: #C1D3C8;
+}
+h1{
+    font-family: 'Notable', sans-serif;
+}
+h5{
+    margin: 20px;
+    color: #C1D3C8;
+}
+.about-header, .about-text{
+    background-color: rgb(84, 121, 143);
+    font-family: 'Notable', sans-serif;
+}
+nav ul a{
+    color: #C1D3C8;
+}
+nav .brand-logo{
+    color: #C1D3C8;
+} 
+.footr{
+  
+    background-color: grey;
+    color: whitesmoke;
+
+    /* for sticky footer */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+}
+.container{
+    z-index: 10;
+}
+.box {
+    /* position: relative;
+    right: -500px; */
+	display: flex;
+}
+
+.box .inner {
+	width: 400px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.box .inner:first-child {
+	background-color: crimson;
+	color: rgb(84, 121, 143);
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+	background-color: indianred;
+	color: #C1D3C8;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner h1 {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child h1 {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}

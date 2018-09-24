@@ -1,0 +1,52 @@
+html, body, .my-wrapper {
+    height: 100%;
+    width: 100%;
+   
+}
+  body{
+    background-image: url(../Images/redRockImg1.jpg);
+    z-index: -10;
+    background-attachment: fixed;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.fixed-action-btn{
+    z-index: 10;
+}
+.btn-large{
+    background-color: crimson;
+    font-family: 'Notable', sans-serif;  
+    position: relative;
+    right: 30px;  
+}
+.btn-large:hover{
+    background-color: rgb(84, 121, 143);
+}
+#welcome{
+    font-family: 'Notable', sans-serif;
+    color: crimson;
+}
+h3{
+    text-shadow: 0 1px 0 rgb(245, 188, 188), 0 2px 0 #fc9b9b, 0 3px 0 rgb(255, 127, 127), 
+    0 4px 0 #fa7f7f, 0 5px 0 rgb(255, 112, 112),0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px
+  rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+@media screen and (max-width: 700px) and (min-width: 300px){
+    h3{
+        font-size: 20px;
+    }
+}  
+
+@media screen and (max-width: 1080px) and (min-width: 701px){
+    h3{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 1080px){
+    
+    h3{
+        font-size: 40px;
+    }
+}
