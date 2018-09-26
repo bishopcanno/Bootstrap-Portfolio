@@ -1,0 +1,91 @@
+/* --------------------------------------------------------------------------CONTACT PAGE CSS */
+/* customized css for nav body and contact header */
+nav {
+    background-color: crimson;
+}
+
+nav ul a{
+    color: #C1D3C8;
+}
+nav #home-button{
+    color: #C1D3C8;
+} 
+#contact-header-row{
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(84, 121, 143);
+    color: #C1D3C8;
+}
+
+#form-row{
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(84, 121, 143);
+    color: #C1D3C8;
+}
+.credit, .page-links{
+    color: crimson;
+}
+.collapsible{
+    border-color: #C1D3C8;
+}
+.collapsible-header, .collapsible-body{
+    background-color: rgb(84, 121, 143);
+    border-color: #C1D3C8;
+}
+#collapsable-row{
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(84, 121, 143);
+    color: #C1D3C8;   
+}
+
+/* CSS for Header Img */
+
+  html{
+    width:100%;
+    height: 100%;
+  }
+  body{
+    margin: 0;
+    background-color: #C1D3C8;
+  }
+  .title{
+    font-weight: 800;
+    color: transparent;
+    font-size: 6rem;
+    background: url("../Images/carinaNeb.jpg") repeat;
+    background-position: 40% 50%;
+    -webkit-background-clip: text;
+    position:relative;
+  }
+ 
+
+/* form custom css */
+input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: solid 2px crimson !important;
+    box-shadow: 0 1px 0 0 crimson !important;
+    color: #C1D3C8 !important;
+}
+input[type=tel]:not(.browser-default):focus:not([readonly]){
+    border-bottom: solid 2px crimson !important;
+    box-shadow: 0 1px 0 0 crimson!important;
+    color: #C1D3C8 !important;
+}
+.input-field .prefix.active{
+    color: crimson !important;
+}
+
+.input-field input:focus + label {
+    color: crimson !important;
+}
+
+input[type=text]:not(.browser-default){
+    border-bottom: 1px solid #C1D3C8;
+    color: #C1D3C8;
+}
+.input-field > label{
+    color: #C1D3C8 !important;
+}
+
+input[type=tel]:not(.browser-default){
+    border-bottom: 1px solid #C1D3C8;
+    color: #C1D3C8;
+}

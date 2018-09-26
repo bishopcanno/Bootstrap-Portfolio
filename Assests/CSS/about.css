@@ -7,8 +7,11 @@ nav {
 body{
     background-color: #C1D3C8;
 }
-h1{
-    font-family: 'Notable', sans-serif;
+h1 {
+    font-size: 6.2rem;
+    line-height: 110%;
+	margin: 2.8rem 0 1.68rem 0;
+	font-family: 'Fjalla One', sans-serif;
 }
 h5{
     margin: 20px;
@@ -16,7 +19,7 @@ h5{
 }
 .about-header, .about-text{
     background-color: rgb(84, 121, 143);
-    font-family: 'Notable', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
 }
 nav ul a{
     color: #C1D3C8;
@@ -24,6 +27,10 @@ nav ul a{
 nav #home-button{
     color: #C1D3C8;
 } 
+
+
+/* font-family: 'Notable', sans-serif; */
+
 /* footer on hold for now, will use materialize more than likely  */
 /* .footr{
   
@@ -55,8 +62,8 @@ nav #home-button{
 	width: 400px;
 	height: 200px;
 	line-height: 200px;
-	font-size: 4em;
-	font-family: sans-serif;
+	
+	/* font-family: sans-serif; */
 	font-weight: bold;
 	white-space: nowrap;
 	overflow: hidden;
@@ -79,16 +86,19 @@ nav #home-button{
 .box .inner h1 {
 	position: absolute;
 	animation: marquee 5s linear infinite;
+	font-size: 6.2rem;
 }
 
 .box .inner:first-child h1 {
 	animation-delay: 2.5s;
 	left: -100%;
+	font-size: 6.2rem;
 }
 /* added margin to the parallax container, adds to the effect of it looking like its behind the text rows */
 .parallax-container{
 	margin-right: 10px;
 	margin-left: 10px;
+	font-size: 60px;
 }
 
 @keyframes marquee {
@@ -112,9 +122,6 @@ nav #home-button{
 } 
 
 @media screen and (max-width: 1030px) and (min-width: 856px){
-	h1{
-		font-size: 40px;
-	}
 	.inner-header{
 		position: relative;
 		top: 20px;

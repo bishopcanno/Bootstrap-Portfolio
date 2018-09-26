@@ -9,13 +9,14 @@
     
     <!-- css cdns, links and files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
-    <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="./Assests/CSS/about.css">
+    <link rel="stylesheet" href="./Assests/CSS/contact.css">
 
     </head>
 
-    <body>
+    <body id="test">
         <!-- navbar -->
     <div class="nav-div">
             <nav>
@@ -23,11 +24,10 @@
                     <div class="row">
                         <div class="col s12">
                             <div class="nav-wrapper">
-                                <a class="left" id="home-button" href="#home-tab"><i class="material-icons">home</i></a>
                                 <ul id="nav-mobile" class="right">
-                                    <li><a id="portfolio-nav-link"  href=""><i class="material-icons">photo_library</i></a></li>
-                                    <li><a id="contact-nav-link"  href=""><i class="material-icons">phonelink_ring</i></a></li>
-                                    <li><a id="about-nav-link"  href=""><i class="material-icons">person</i></a></li>
+                                    <li><a id="portfolio-nav-link"  href="portfolio.html"><i class="material-icons">photo_library</i></a></li>
+                                    <li><a id="contact-nav-link"  href="contact.html"><i class="material-icons">phonelink_ring</i></a></li>
+                                    <li><a id="about-nav-link"  href="about.html"><i class="material-icons">person</i></a></li>
                                 </ul>
                             </div>
                         </div>    
@@ -37,7 +37,96 @@
         </div>
         <br/>
         
-        <div class="container">
+        <div class="container center-align">
+            <div class="row z-depth-5" id="contact-header-row">
+                <div class="col s12 center-align">
+                    <div class="title">Contact Me</div>
+                </div>
+            </div>
+            
+            <div class="row z-depth-5" id ="form-row">
+                <form class="col s10 offset-s1">
+                    <div class="row">
+                        <div class="input-field col s6 ">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="first-name" type="text">
+                            <label for="first-name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="last-name" type="text">
+                            <label for="last-name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">email</i>
+                            <input id="email" type="text">
+                            <label for="email">Email</label>
+                        </div>
+                        
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">phone</i>
+                            <input id="telephone" type="tel">
+                            <label for="telephone">Telephone</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="row z-depth-5" id="collapsable-row">
+                <div class="col s10 offset-s1">
+                    <ul class="collapsible expandable">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">web</i>Professional Links</div>
+                            <div class="collapsible-body">
+                                <div class="row">
+                                    <div class="col s6">
+                                        <a href="" target="blank" class="page-links">LinkdIn</a>
+                                    </div>
+                                    <div class="col s6">
+                                        <a href="https://github.com/bishopcanno" target="blank" class="page-links">Git Hub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">public</i>Credits</div>
+                            <div class="collapsible-body center">
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p>Moving Background Text</p>
+                                        <a href="https://codepen.io/dghez/" target = "blank" class = "credit">Robert Borghesi</a>
+                                    </div>
+                                    <div class="col s4">
+                                        <p>Marquee Text</p>
+                                        <a href="https://codepen.io/comehope/" target = "blank" class="credit">Comehope</a>
+                                    </div>
+                                    <div class="col s4">
+                                        <p>Typing Text</p>
+                                        <a href="https://codepen.io/worksbyvan/" target = "blank" class="credit">Van Huynh</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p>CSS Library</p>
+                                        <a href="https://materializecss.com" target= "blank" class="credit">Materialize</a>
+                                    </div>
+                                    <div class="col s4">
+                                        <p>JS Library</p>
+                                        <a href="https://jquery.com/" target="blank" class="credit">jQuery</a>
+                                    </div>
+                                    <div class="col s4">
+                                        <p>Image Carousel</p>
+                                        <a href="http://idangero.us/swiper/" target="blank" class="credit">Swiper</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
             
         </div>
 
@@ -48,6 +137,7 @@
         <!-- script cdns and files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.js"></script>
     <script src="./Assests/portfolioJS/portfolioScript.js"></script>
     </body>
 </html>
