@@ -6,6 +6,16 @@ nav {
 }
 body{
     background-color: #C1D3C8;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+  }
+.page-footer{
+background-color: crimson;
+color: #C1D3C8; 
 }
 h1{
     font-family: 'Fjalla One', sans-serif;
