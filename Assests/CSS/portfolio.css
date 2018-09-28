@@ -14,8 +14,9 @@ main {
     flex: 1 0 auto;
   }
 .page-footer{
-background-color: crimson;
-color: #C1D3C8; 
+    background-color: crimson;
+    color: #C1D3C8; 
+    font-family: 'Fjalla One', sans-serif;
 }
 h1{
     font-family: 'Fjalla One', sans-serif;
