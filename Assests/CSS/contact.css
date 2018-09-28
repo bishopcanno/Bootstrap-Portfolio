@@ -101,14 +101,30 @@ input[type=tel]:not(.browser-default){
     color: #C1D3C8;
 }
 
+
 /* Media queries */
 @media screen and (max-width: 850px) and (min-width: 300px){
 	.title{
-		font-size: 40px;
-	}
-} 
-@media screen and (max-width: 1100) and (min-width: 850px){
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1030px) and (min-width: 851px){
 	.title{
 		font-size: 55px;
-	}
-} 
+    }
+    p, .credit, .page-links{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1350px) and (min-width: 1031px){
+
+    p, .credit, .page-links{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 1351px){
+    p, .credit, .page-links{
+        font-size: 30px;
+    }
+}
